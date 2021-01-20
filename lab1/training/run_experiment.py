@@ -1,4 +1,14 @@
-#!/usr/bin/env python
+# import sys
+# sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab1\\training')
+# sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab1\\text_recognizer')
+# print('paths: ', sys.path)
+import os, sys, inspect
+
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+
+sys.path.insert(0,parentdir)
+
 """Script to run an experiment."""
 import argparse
 import json
@@ -6,7 +16,7 @@ import importlib
 from typing import Dict
 import os
 
-from training.util import train_model
+from util import train_model
 
 DEFAULT_TRAIN_ARGS = {"batch_size": 64, "epochs": 16}
 
@@ -106,6 +116,9 @@ def _parse_args():
         "--nowandb", default=False, action="store_true", help="If true, do not use wandb for this run",
     )
     args = parser.parse_args()
+    print("args: ", args)
+    # print("args: ", vars(parser.parse_args()))
+    # print("args: ", vars(parser.parse_known_args()))
     return args
 
 

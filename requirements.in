@@ -2,10 +2,15 @@ boltons
 editdistance
 flask
 h5py
+nltk
 numpy
 opencv-python-headless
+pipenv
 requests
-tensorflow==2.2.0rc2
+tensorflow==2.2.0
 toml
 tqdm
 wrapt==1.11.* # due to pylint
+wincertstore==0.2
+git+https://github.com/wookayin/gpustat@master#egg=gpustat
+windows-curses

@@ -20,3 +20,6 @@ safety
 scipy
 pillow
 wandb
+wincertstore==0.2
+git+https://github.com/wookayin/gpustat@master#egg=gpustat
+windows-curses

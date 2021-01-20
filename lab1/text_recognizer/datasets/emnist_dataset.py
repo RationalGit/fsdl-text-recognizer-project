@@ -1,3 +1,7 @@
+import sys
+# sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab1')
+# print('paths: ', sys.path)
+
 """
 EMNIST dataset. Downloads from NIST website and saves as .npz file if not already present.
 """

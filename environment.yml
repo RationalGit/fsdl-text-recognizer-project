@@ -1,6 +1,6 @@
 name: fsdl-text-recognizer
 channels:
-  - defaults
+  - defaults/win-64
 dependencies:
   - python=3.7
   - cudatoolkit=10.1

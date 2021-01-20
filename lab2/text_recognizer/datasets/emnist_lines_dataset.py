@@ -1,3 +1,12 @@
+import sys
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab2')
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab3')
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab4')
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab5')
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab6')
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab7')
+sys.path.append('C:\\Users\\tomw\\OneDrive - PROFUSION\\Documents\\Training\\ML_methods\\fsdl\\fsdl-text-recognizer-project\\lab8')
+
 """Emnist Lines dataset: synthetic handwriting lines dataset made from EMNIST characters."""
 from collections import defaultdict
 from pathlib import Path
